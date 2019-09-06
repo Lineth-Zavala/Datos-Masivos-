@@ -57,10 +57,6 @@ Estoy escribiendo un tweet
 //4. Dada la variable mensaje = "Hola Luke yo soy tu padre!" utiliza slilce para extraer la
 //   secuencia "Luke"
 
-
-
-
-
 scala> var mensaje= "Hola Luke soy tu padre"
 mensaje: String = Hola Luke soy tu padre
 
@@ -88,23 +84,14 @@ scala> var Num2=3
 Num2: Int = 3
 
 //6. Dada la tupla ((2,4,5),(1,2,3),(3.1416,23))) regresa el numero 3.1416 
+scala> val tupla = ((2,4,5),(1,2,3),(3.1416,23))
+tupla: ((Int, Int, Int), (Int, Int, Int), (Double, Int)) = ((2,4,5),(1,2,3),(3.1416,23))
+
+scala> tupla
+res9: ((Int, Int, Int), (Int, Int, Int), (Double, Int)) = ((2,4,5),(1,2,3),(3.1416,23))
+
+scala> println(tupla._3._1)
+3.1416
 
 
 
-
-scala> val Num=1
-Num: Int = 1
-
-scala> Num1=2
-<console>:25: error: not found: value Num1
-val $ires6 = Num1
-             ^
-<console>:23: error: not found: value Num1
-       Num1=2
-       ^
-
-scala> var Num2=2
-Num2: Int = 2
-
-scala> var Num2=3
-Num2: Int = 3
