@@ -110,3 +110,10 @@ res6: scala.collection.mutable.Map[String,Int] = Map(Ana -> 23, Luis -> 24, Jose
 scala> nombres +=("Susana" -> 27)
 res7: scala.collection.mutable.Map[String,Int] = Map(Susana -> 27, Ana -> 23, Luis -> 24, Jose -> 20)
 
+// 6 a . Imprime todas la llaves del mapa
+scala> nombres
+res8: scala.collection.mutable.Map[String,Int] = Map(Susana -> 27, Ana -> 23, Luis -> 24, Jose -> 20)
+
+// 7 b . Agrega el siguiente valor al mapa("Miguel", 23)
+scala> nombres += ("Miguel" -> 23")
+
