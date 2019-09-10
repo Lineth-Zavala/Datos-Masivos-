@@ -1,5 +1,5 @@
 //Fibonacci1
-def fib3( n : Int) : Int = { 
+def fib1( n : Int) : Int = { 
   def fib_tail( n: Int, a:Int, b:Int): Int = n match {
     case 0 => a 
     case _ => fib_tail( n-1, b, a+b )
@@ -8,7 +8,7 @@ def fib3( n : Int) : Int = {
 }
 
 //Fibonacci2
-def fib(n:Int): Int = }
+def fib2(n:Int): Int = }
     def calFib( n: Int, pre : Int, cur: Int): Int={
       if (n==0)
         pre
@@ -32,7 +32,7 @@ def fib(n:Int): Int = }
 }
 
 //Fibonacci3
-def fib2( n : Int ) : Int = {
+def fib3( n : Int ) : Int = {
   var a = 0
   var b = 1
   var i = 0	  
