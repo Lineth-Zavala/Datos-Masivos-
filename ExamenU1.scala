@@ -1,3 +1,5 @@
+//Lineth Alexandra Zavala ExamenU1
+
 def breakingRecords(scores: Array[Int]): List[Int] ={
     var max = scores(0) 
     var countmax = scores(0) 
